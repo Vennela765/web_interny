@@ -1,0 +1,234 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0%;
+    padding: 0%;
+    background-color: rgb(231, 229, 229);
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    box-shadow: 0px 4px 4px 0px rgb(155, 154, 154);
+    position: fixed;
+    width: 100%;
+    top: 0%;
+}
+nav ul a{
+    text-decoration: none;
+    margin-inline: 25px;
+    font-size: 18px;
+    color: black;
+}
+nav ul a:hover{
+    color: red;
+    border-bottom: 2px solid red;
+}
+nav button{
+    width: 80px;
+    height: 28px;
+    background-color: rgb(231,5 ,5 );
+    color: white;
+    font-size: 18px;
+    border: none;
+}
+nav button:hover{
+    border: 2px solid red;
+    background-color: transparent;
+    color: black;
+    cursor: pointer;
+}
+nav ul{
+    margin-right: 26px;
+    margin-top: 22px;
+}
+nav .logo{
+    margin-left: 23px;
+}
+.line{
+    font-size: 25px;
+    color: #535732;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.main{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 115px;
+}
+.maintext{
+    margin-top: 33px;
+}
+.maintext h1{
+    font-size: 58px;
+}
+.maintext h2{
+    font-size: 44px;
+    color: rgb(8, 165, 165);
+}
+.maintext button{
+    width: 140px;
+    height: 44px;
+    background-color: rgb(229,4 ,4 );
+}
+.maintext button:hover{
+    border: 3px solid red;
+    background-color: transparent;
+    color: black;
+    cursor: pointer;
+}
+.head{
+    text-align: center;
+    margin: 45px;
+    padding: 55px;
+}
+.head span{
+    color: rgb(6, 161, 161);
+}
+.card{
+    display: flex;
+    justify-content: center;
+}
+.card .trend{
+    height: 700px;
+    width: 50%;
+    background-color: #fff;
+    margin-inline: 22px;
+}
+.trend img{
+    width: 100%;
+    height: 70%;
+}
+.trend .cardtext{
+    padding: 30px;
+}
+.trend i{
+    color: rgb(225, 149, 0);
+    font-size: 22px;
+}
+.trend button{
+    width: 90px;
+    height: 28px;
+    background: red;
+    font-size: 12px;
+    border-radius: 22px;
+    border: none;
+}
+.card .trend:hover{
+    background-color: grey;
+    width: 900px;
+    color: white;
+    transition: 0.6s ease;
+}
+.blog{
+    display: flex;
+    justify-content: center;
+}
+.blogcard{
+    display: flex;
+    background-color: #fff;
+    padding: 12px;
+    margin-bottom: 22px;
+    width: 500px;
+}
+.blogcard:hover{
+    width: 520px;
+    transition: 0.7s ease;
+    background-color: silver;
+}
+.blogcard img{
+    width: 44%;
+    border-radius: 11px;
+}
+.blogcard .blogtext{
+    text-align: center;
+    padding: 20px;
+}
+.blogtext a{
+    width: 90px;
+    padding: 7px;
+    background-color: red;
+    color: white;
+    font-size: 18px;
+    border: none;
+}
+.customer{
+    display: flex;
+    justify-content: center;
+}
+.customer .review{
+    width: 200px;
+    background-color: #fff;
+    padding: 24px;
+    margin-inline: 23px;
+}
+.review img{
+    width: 44%;
+    border-radius: 50%;
+}
+.review i{
+    color: orange;
+    font-size: 22px;
+}
+.contactpage{
+    border: 4px solid rgb(2, 129, 129);
+    text-align: center;
+    padding: 44px;
+    width: 500px;
+    margin-left: 26%;
+}
+.contactpage input{
+    width: 400px;
+    padding: 9px;
+    font-size: 18px;
+    outline: none;
+    margin-top: 11px;
+}
+.contactpage button{
+    width: 140px;
+    height: 37px;
+    background-color: rgb(7, 134, 134);
+    color: white;
+    font-size: 22px;
+    border: none;
+    margin-top: 22px;
+}
+.contactpage button:hover{
+    border: 3px solid rgb(4, 127, 127);
+    background-color: transparent;
+    color: black;
+}
+.foooter{
+    display: flex;
+    justify-content: space-around;
+    background-color: #fff;
+    color: black;
+    padding: 55px;
+    margin-top: 55px;
+}
+/* login*/
+.loginpage{
+    display: none;
+    width: 200px;
+    padding: 22px;
+    background-color: #fff;
+    text-align: center;
+    position: fixed;
+    margin-left: 81%;
+    top: 11px;
+    right:100px;
+}
+.loginpage input{
+    width: 166px;
+    padding: 4px;
+    border: 2px solid rgb(7, 150, 150);
+    margin-top: 11px;
+}
+.loginpage button{
+    margin-top: 13px;
+    width: 80px;
+    height: 28px;
+    border: none;
+    font-size: 18px;
+    color: white;
+    background-color: rgb(215, 7, 7);
+}
